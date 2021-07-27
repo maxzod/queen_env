@@ -13,8 +13,9 @@ Future<void> loadEnv([String path = '.env']) async {
     throw '$path does not exist';
   }
   final lines = await env.readAsLines();
-  for (final line in lines) {
-    if (!isAComment(line)) {
+  for (final fullLine in lines) {
+    final line = fullLine.trim();
+    if (line.isNotEmpty && !isAComment(line)) {
       final lineKey = extractKey(line);
       final lineValue = extractValue(line);
       _keys.add(lineKey);

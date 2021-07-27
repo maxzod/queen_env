@@ -1,5 +1,5 @@
 bool isAComment(String line) {
-  return RegExp(r'''#.*(?:[^'"])$''').hasMatch(line);
+  return line.startsWith('//') || RegExp(r'''#.*(?:[^'"])$''').hasMatch(line);
 }
 
 String extractKey(String line) {
