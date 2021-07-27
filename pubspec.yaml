@@ -1,6 +1,7 @@
 name: queen_env
 description: .env files reader part of queen packages
 version: 0.0.2-beta
+homepage: https://github.com/maxzod
 environment:
   sdk: ">=2.12.0 <3.0.0"
 dev_dependencies:
