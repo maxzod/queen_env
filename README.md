@@ -2,8 +2,6 @@
 
 # **`Part of Queen Packages 👑`**
 
-[![style: lint](https://img.shields.io/badge/style-lint-4BC0F5.svg)](https://pub.dev/packages/lint)
-
 # Motivation
 
 - this packages is made for `place` package
@@ -26,9 +24,4 @@ print(value) // root
 
 # bonus
 
-this package will skip the content of your `.env` file ⏭
-
-# What is next ?
-
-- [ ] unit test
-- [ ] update .env contents
+this package will skip the comments on your `.env` file ⏭
