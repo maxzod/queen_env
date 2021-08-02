@@ -41,7 +41,7 @@ void main() {
   });
   test('read env value while it does not exist with envOrNull() will returns Null', () {
     final name = envOrNull('404_key');
-    expect(name, isA<Null>());
+    expect(name, equals(null));
   });
 
   // tearDown(() async {
