@@ -1,6 +1,7 @@
 # [**`Queen Env`**](https://pub.dev/packages/queen_env)
 
 # **`Part of Queen Packages 👑`**
+# **`moved to`  [**`Palace`**](https://github.com/maxzod/palace)  ` repo`**
 
 # Motivation
 
